@@ -1,0 +1,239 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header{
+    
+    background-color: rgb(29, 233, 189);
+    height: 100%;
+    
+    
+}
+
+img{
+    width: 120px;
+    height: 45px;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+}
+
+.nav-link{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.nav-toogle{
+    color: darkcyan;
+    background: none;
+    border: none;
+    font-size: 25px;
+    justify-content: space-between;
+    margin: 5px;
+
+    display: none;
+}
+
+.li:checked + .nav-toogle{
+    display: block;
+}
+
+
+.nav-menu{
+    display: flex;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.nav-menu-item{
+  font-family: sans-serif;
+  font-size: 13px;
+  margin: 5px;
+  width: max-content;
+
+  
+}
+
+.nav-menu-link{
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.nav-menu-link:hover{
+    background-color: rgb(59, 117, 98);
+    transition: 0.5s;
+}
+
+.Titulo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+h2{
+    color: darkcyan;
+    flex-direction: column;
+    margin: 5px;
+    font-size: 40px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.Subtitulo{
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    font-family: sans-serif;
+    color: darkgrey;
+    flex-direction: column;
+}
+
+.Seccion-Servicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+p{
+    display: flex;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin: 15px;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    color: darkcyan;
+    margin-top: 10px;
+    justify-content: center;
+    align-items:center;
+    
+        
+}
+
+
+.Tecnologia-uno{
+    margin: 5px 5px;
+    width: 470px;
+    height: 250PX;
+    display: flex;
+    
+}
+
+.nav-contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-contacto-link{
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:darkcyan;
+    display: flex;
+    padding: 10px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    
+}
+
+.nav-contacto-link:hover{
+    background-image: linear-gradient(to left, aqua, rgb(47, 128, 128));
+    color: black;
+}
+
+.Suscripcion{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 15px;
+}
+
+.Forms{
+    width: 300px;
+
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    display: flex;
+    border-color: darkcyan;
+    border-radius: 10px;
+}
+
+.martech{
+    font-size: 15px;
+    color: grey;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+
+.pie-de-pagina{
+    background-color:aqua;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.Lugar{
+    
+    font-family: sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    height: 100px;
+}
+
+.telefono{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.info{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+
+
+
+@media(max-width: 768px) {
+    .nav-menu{
+        flex-direction: column;
+        background-color: rgb(58, 57, 57);
+        top: 60px;
+        position:fixed;
+        left: none;
+        width: 100%;
+        align-items: center;
+        
+            
+    }
+
+    .nav-toogle{
+        display: block;
+    }
